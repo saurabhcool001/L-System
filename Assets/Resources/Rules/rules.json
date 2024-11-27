@@ -1,0 +1,74 @@
+{
+  "LSystems": [
+    {
+      "index": 0,
+      "axiom": "F",
+      "iterations": 5,
+      "angle": 25.7,
+      "length": 1.0,
+      "rule_F": "F[+F]F[-F]F"
+    },
+    {
+      "index": 1,
+      "axiom": "F",
+      "iterations": 5,
+      "angle": 20,
+      "length": 1.0,
+      "rule_F": "F[+F]F[-F][F]"
+    },
+    {
+      "index": 2,
+      "axiom": "F",
+      "iterations": 4,
+      "angle": 22.5,
+      "length": 1.0,
+      "rule_F": "FF-[-F+F+F]+[+F-F-F]"
+    },
+    {
+      "index": 3,
+      "axiom": "X",
+      "iterations": 7,
+      "angle": 20,
+      "length": 0.1,
+      "rule_X": "F[+X]F[-X]+X",
+      "rule_F": "FF"
+    },
+    {
+      "index": 4,
+      "axiom": "X",
+      "iterations": 7,
+      "angle": 25.7,
+      "length": 0.1,
+      "rule_X": "F[+X][-X]FX",
+      "rule_F": "FF"
+    },
+    {
+      "index": 5,
+      "axiom": "X",
+      "iterations": 5,
+      "angle": 22.5,
+      "length": 0.1,
+      "rule_X": "F-[[X]+X]+F[+FX]-X",
+      "rule_F": "FF"
+    },
+    {
+      "index": 6,
+      "axiom": "F-G-G",
+      "iterations": 4,
+      "angle": 120,
+      "length": 1.0,
+      "rule_F": "F-G+F+G-F",
+      "rule_G": "GG"
+    },
+    {
+      "index": 7,
+      "axiom": "F",
+      "iterations": 10,
+      "angle": 90,
+      "length": 1.0,
+      "rule_F": "F+G",
+      "rule_G": "F-G"
+    }
+  ]
+  }
+  
